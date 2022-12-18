@@ -1,0 +1,26 @@
+.header{
+    height: 80px;
+    width: auto;
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.header img {
+    padding: 15px 0;
+
+}
+.header .link__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.header .link__list a {
+    color: white;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+.header .link__list a:hover{
+    color: orange;
+    transition: 1s;
+}
